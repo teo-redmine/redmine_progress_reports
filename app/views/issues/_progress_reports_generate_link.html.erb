@@ -1,0 +1,6 @@
+<% if @issue.tracker.name.eql?("[IP] Informe Progreso") &&  
+		User.current.allowed_to?(:generate_progress_reports, @project) %>
+<p>
+<%= link_to_if(!@issue.status.name.eql?("Cerrado") ,l(:label_generate_progress_report), progress_reports_generate_path(issue_id: @issue, project_id:@issue.project.id), data: { confirm: l(:text_generate_progress_report_confirmation) }) %>
+</p>
+<% end %>

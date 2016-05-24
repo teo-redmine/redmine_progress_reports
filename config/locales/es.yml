@@ -1,0 +1,7 @@
+# Spanish strings go here for Rails i18n
+es:
+  label_generate_progress_report: "Generar Informe Progreso"
+  text_generate_progress_report_confirmation: "¿Desea generar el Informe Progreso?"
+  permission_generate_progress_reports: "Generar Informes Progreso"
+  notice_successful_generate: "Informe Progreso generado correctamente."
+  error_generate_report: "Error al generar el Informes Progreso."

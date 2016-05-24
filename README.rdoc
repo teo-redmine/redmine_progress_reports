@@ -1,0 +1,16 @@
+================
+= Redmine OPPM =
+================
+
+Plugin para la generación de informes OPPM para Trackers de tipo OPPM.
+Añade un enlace para la generación y descarga del informe.
+
+Instalación
+-----------
+
+1. Copiar el contenido del plugin en 'redmine/plugins/'
+
+2. Ejecutar en el servidor dependencias 
+	# yum install libxml2-devel
+
+2. Reiniciar el servidor
